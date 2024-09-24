@@ -1,0 +1,28 @@
+music_generator/
+│
+├── data/
+│   ├── samples/
+│   └── output/
+│
+├── src/
+│   ├── __init__.py
+│   ├── melody_generator.py
+│   ├── chord_generator.py
+│   ├── rhythm_generator.py
+│   ├── midi_exporter.py
+│   └── main.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_melody_generator.py
+│   ├── test_chord_generator.py
+│   ├── test_rhythm_generator.py
+│   └── test_midi_exporter.py
+│
+├── docs/
+│   ├── README.md
+│   └── ...
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
