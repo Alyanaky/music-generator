@@ -1,5 +1,3 @@
-# src/main.py
-
 import tkinter as tk
 from tkinter import filedialog, ttk
 from .melody_generator import generate_melody
