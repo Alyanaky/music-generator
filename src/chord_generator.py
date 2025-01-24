@@ -1,8 +1,7 @@
 import numpy as np
 
 def generate_chords():
-    # Пример генерации случайных аккордов
-    duration = 5  # Длительность аккордов в секундах
-    sr = 22050  # Частота дискретизации
+    duration = 5
+    sr = 22050
     chords = np.random.randn(duration * sr)
     return chords
